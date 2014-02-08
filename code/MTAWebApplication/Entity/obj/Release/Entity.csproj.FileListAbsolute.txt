@@ -1,0 +1,4 @@
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\Entity\bin\Release\Entity.dll
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\Entity\bin\Release\Entity.pdb
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\Entity\obj\Release\Entity.dll
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\Entity\obj\Release\Entity.pdb

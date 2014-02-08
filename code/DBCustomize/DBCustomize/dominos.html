@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overriding Bootstrap behavior</title>
+    <!-- LESS FILES  -->
+    <link rel="stylesheet/less" type="text/css" href="LessStyle/base/bootstrap.less" />
+
+    <link rel="stylesheet/less" type="text/css" href="LessStyle/client/dominos.less" />
+
+    <script src="Scripts/less-1.5.0.min.js"></script>
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="Scripts/offcanvas.js"></script>
+</head>
+
+<body>
+
+<!-- OFF CANVAS  ==================================================-->
+<div class="row row-offcanvas row-off-canvas-slide" id="ofc">
+    <div class="col-xs-12 col-sm-9 paddingleftandbottom">
+        <h1>Off-Canvas Navigation
+            <!-- Button in case of Offcanvas from right -->
+            <!--  <button type="button" class="btn btn-primary btn-lg visible-xs pull-right" data-toggle="offcanvas">Toggle right navigation</button>-->
+
+        </h1>
+        <!-- Button in case of Offcanvas from left -->
+        <div class="left-canvas">
+            <button type="button" class="btn btn-primary btn-lg canvas-btn" data-toggle="offcanvas">Toggle navigation</button>
+        </div>
+        <br />
+        <p style="display: block; float: left">
+            This file shows default off-canvas navigation available in Bootstrap. In this, the navigation is shown in right in web-view, while in mobile/tablet view, it shows as a button; on click of which the menu appears as a off-canvas from right side.
+            <br />
+            If we want to customize this offering such that the off-canvas slides from left, we need to override certain classes defined in multiple <b>.less</b> files offered by Bootstap.
+
+        <div style="display: none;">
+            The styles being handled are shown in
+            <br />
+            <div style="height: 250px; width: 400px; overflow-x: auto">
+                        <pre>
+html
+{
+    overflow-x: hidden;
+}
+
+body
+{
+    padding-top: 70px;
+}
+
+footer
+{
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 767px)
+{       
+    .row-offcanvas
+    {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+    }    
+
+    .row-offcanvas-right .sidebar-offcanvas
+    {
+        right: -50%;
+    }     
+
+    .row-offcanvas-left .sidebar-offcanvas
+    {
+        left: -50%;
+    }       
+
+    .row-offcanvas-right.active
+    {
+        right: 50%;
+    }    
+
+    .row-offcanvas-left.active
+    {
+        left: 50%;
+    }     
+
+    .sidebar-offcanvas
+    {
+        position: absolute;
+        top: 0;
+        width: 50%;
+    }
+}
+
+</pre>
+            </div>
+        </div>
+        <br />
+        This overridden style changes the default behavior to make the off-canvas slide from right
+        </p>
+
+    </div>
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+        <div class="list-group">
+            <a href="#" class="list-group-item active">Buy new card</a> <a href="#" class="list-group-item">Check balance</a> <a href="#" class="list-group-item">Reload card</a> <a href="#" class="list-group-item">Transfer balance</a>
+            <a href="#" class="list-group-item">Careers</a> <a href="#" class="list-group-item">Our company</a> <a href="#" class="list-group-item">Product List</a>
+
+        </div>
+    </div>
+</div>
+<!-- /. OFF CANVAS -->
+
+</body>
+</html>

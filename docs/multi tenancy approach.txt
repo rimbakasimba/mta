@@ -1,0 +1,4 @@
+biz rules => 
+client decorator => core code 
+dynamic dll loader using DI
+update classification as core vs specific

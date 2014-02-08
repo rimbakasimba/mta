@@ -1,0 +1,40 @@
+.header{
+  background: #0f243f;
+  padding:15px 20px;
+  /*    border-bottom: ~"@{borderWidth / 4} @{borderType} @{borderColor}";*/
+}
+h2{
+  color: #ffffff;
+  margin:0;
+  font-size:20px;
+  font-weight:bold;
+}
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #ff7300;
+  font-weight:bold;
+}
+
+/* Modal window transition effects updated */
+// When fading in the modal, animate it to slide down
+.modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex-modal-background;
+  // When fading in the modal, animate it to slide down
+  &.fade .modal-dialog {
+    .translate(-70%, 0);
+    .transition-transform(~"1s cubic-bezier(.42,.84,.74,.42)");
+  }
+  &.in .modal-dialog { .translate(0, 0)}
+}
+.paddingleftandbottom{
+	padding-left:25px;
+	padding-right:25px;
+}

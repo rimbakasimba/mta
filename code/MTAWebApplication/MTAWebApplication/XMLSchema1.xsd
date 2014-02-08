@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<xs:schema id='XMLSchema1' targetNamespace='http://tempuri.org/XMLSchema1.xsd' elementFormDefault='qualified' xmlns='http://tempuri.org/XMLSchema1.xsd' xmlns:mstns='http://tempuri.org/XMLSchema1.xsd' xmlns:xs='http://www.w3.org/2001/XMLSchema' >
+  <xs:element name='Custom'>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name='name'  type='xs:string' nillable='true' />
+        <xs:element name='Age'  type='xs:int' nillable='true' />
+        <xs:element name='DOB'  type='xs:dateTime' nillable='false' />
+        <xs:element name='Phone' type='xs:string' nillable='true' minOccurs='0' maxOccurs='2' />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="Custom">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Age" nillable="true" type="xs:int" />
+        <xs:element name="State" nillable="true" type="xs:string"  />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+                   -->

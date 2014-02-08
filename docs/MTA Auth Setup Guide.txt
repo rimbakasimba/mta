@@ -1,0 +1,11 @@
+DBModel { shared, saparate }
+
+#DBModel = shared
+=> DBName
+
+create a user in database and provide appropriate auth mechanism { win/sql/certificate/ key / credential }
+set default database as given DB if shared DB model, else select the new db
+
+add the login in the given DB
+
+create schema in given DB as the client name and set the authorization to the given login

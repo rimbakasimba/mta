@@ -1,0 +1,8 @@
+
+ageOfCustomer = 17
+minAge = 18
+amountToReload = 30
+amountThreshhold = 25
+
+
+     return ((17 < 18) && (30 > 25));

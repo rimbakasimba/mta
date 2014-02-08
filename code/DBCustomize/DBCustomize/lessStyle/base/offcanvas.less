@@ -1,0 +1,78 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html
+{
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body
+{
+    padding-top: 70px;
+}
+
+footer
+{
+    padding: 30px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+
+//Variables
+@right:                   50%;
+@left:                    50%;
+
+
+//Mixins
+.canvasforright(@right){
+   &.active{
+     right: @right;
+   }
+  .sidebar-offcanvas{
+    right: -@right; /* 6 columns */
+  }
+}
+
+.canvasforleft(@left){
+  &.active{
+    left: @left;
+  }
+  .sidebar-offcanvas{
+    left: -@left; /* 6 columns */
+  }
+}
+/*
+.howtoslide(){
+  .canvasforright(@right);
+}*/
+
+
+  .row-offcanvas
+  {
+      position: relative;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+	  -o-transition: all 0.5s ease;
+	  -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+  }
+
+
+
+  .sidebar-offcanvas
+  {
+      position: absolute;
+      top: 0;
+      width: 50%; /* 6 columns */
+  }
+
+  .canvas-btn{
+    position: fixed;
+    top:10px;
+    left:10px;
+  }
+

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Code\FIS Prototype\07 POC\Multi Tenant\Deploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BL.dll">
+      <publishTime>01/22/2014 13:24:54</publishTime>
+    </File>
+    <File Include="bin/Entity.dll">
+      <publishTime>01/22/2014 13:24:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>01/13/2014 17:57:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>01/13/2014 17:57:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.Configuration.dll">
+      <publishTime>01/13/2014 17:57:59</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>01/13/2014 17:57:59</publishTime>
+    </File>
+    <File Include="bin/MTAWebApplication.dll">
+      <publishTime>01/22/2014 13:26:27</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>01/22/2014 13:02:00</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>01/13/2014 13:38:48</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/13/2014 19:25:14</publishTime>
+    </File>
+    <File Include="jquery-2.0.3.min.js">
+      <publishTime>01/17/2014 18:26:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/13/2014 17:58:01</publishTime>
+    </File>
+    <File Include="ReloadCard.aspx">
+      <publishTime>01/13/2014 18:08:11</publishTime>
+    </File>
+    <File Include="SchemaCustomFields.aspx">
+      <publishTime>01/22/2014 13:23:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/22/2014 13:26:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

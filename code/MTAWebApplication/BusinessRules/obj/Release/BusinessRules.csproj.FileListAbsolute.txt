@@ -1,0 +1,5 @@
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\BusinessRules\bin\Release\BusinessRules.dll
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\BusinessRules\obj\Release\BusinessRules.dll
+D:\Code\FIS Prototype\07 POC\Multi Tenant\MTAWebApplication\BusinessRules\obj\Release\BusinessRules.pdb
